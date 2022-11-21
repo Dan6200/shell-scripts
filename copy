@@ -1,2 +1,2 @@
 # performs the cp command with a fuzzy finder
-cp $(find ~ |fzf) $(find ~ | fzf)
+cp $(find "$1" |fzf) $(find "$1" | fzf)

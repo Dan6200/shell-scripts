@@ -1,0 +1,1 @@
+find ./ -iname "*.md" -type f -exec sh -c 'pandoc -f gfm --css=github-markdown-light.css -V geometry:margin=2cm "${0}" -o "../pdf/$(basename ${0%.md}.pdf)"' {} \;

@@ -1,0 +1,10 @@
+diff ~/.config/i3/config ~/dotfiles/i3-config
+diff ~/.tmux.conf ~/dotfiles/.tmux.conf
+diff ~/.zshrc ~/dotfiles/.zshrc
+diff ~/.vimrc ~/dotfiles/.vimrc
+cp ~/.config/i3/config ~/dotfiles/i3-config
+cp ~/.tmux.conf ~/dotfiles/.tmux.conf
+cp ~/.zshrc ~/dotfiles/.zshrc
+cp ~/.vimrc ~/dotfiles/.vimrc
+git -C ~/dotfiles commit -a
+git -C ~/dotfiles push
