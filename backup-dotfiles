@@ -1,7 +1,7 @@
-diff ~/.config/i3/config ~/dotfiles/i3-config
-diff ~/.tmux.conf ~/dotfiles/.tmux.conf
-diff ~/.zshrc ~/dotfiles/.zshrc
-diff ~/.vimrc ~/dotfiles/.vimrc
+vimdiff ~/.config/i3/config ~/dotfiles/i3-config
+vimdiff ~/.tmux.conf ~/dotfiles/.tmux.conf
+vimdiff ~/.zshrc ~/dotfiles/.zshrc
+vimdiff ~/.vimrc ~/dotfiles/.vimrc
 cp ~/.config/i3/config ~/dotfiles/i3-config
 cp ~/.tmux.conf ~/dotfiles/.tmux.conf
 cp ~/.zshrc ~/dotfiles/.zshrc
